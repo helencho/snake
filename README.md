@@ -2,7 +2,7 @@
 
 You all know the game. Eat the food. Don't crash into a wall. And don't crash into yourself. 
 
-![Game of snake](./assets/snake.png)
+![Game of snake](./assets/snake-end.png)
 
 ## Resources 
 
