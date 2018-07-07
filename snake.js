@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const CANVAS_BORDER_COLOR = '#F5F5F5' //'#212121'
     const CANVAS_BACKGROUND_COLOR = '#F5F5F5'
     const SNAKE_COLOR = '#B39DDB'
-    const SNAKE_BORDER_COLOR = '#7E57C2'
+    const SNAKE_BORDER_COLOR = '#F5F5F5' // '#7E57C2'
     const FOOD_COLOR = '#FFC107'
-    const FOOD_BORDER_COLOR = '#FFA000'
+    const FOOD_BORDER_COLOR = 'F5F5F5' // '#FFA000'
 
     // Get canvas element 
     let canvas = document.getElementById('canvas')
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
              */
             let div = document.getElementById('button-container')
             let button = document.createElement('button')
-            let text = document.createTextNode('Restart')
+            let text = document.createTextNode('restart')
             button.appendChild(text)
             div.appendChild(button)
             button.addEventListener('click', function () {
