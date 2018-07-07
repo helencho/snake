@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const GAME_SPEED = 100
+    const GAME_SPEED = 80
     const CANVAS_BORDER_COLOR = '#F5F5F5' //'#212121'
     const CANVAS_BACKGROUND_COLOR = '#F5F5F5'
     const SNAKE_COLOR = '#B39DDB'
